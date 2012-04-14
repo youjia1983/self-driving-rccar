@@ -1,0 +1,5 @@
+= Introduction =
+
+This project is my attempt at building a small self-driving car, based on a cheap radio-controlled toy. This work is inspired mainly by Sebastian Thrun and Peter Norvig's free, online course on artificial intelligence (https://www.ai-class.com/, autumn 2011) and Thrun's Udacity CS373 Artificial Intelligence for Robotics, a.k.a. Programming a Robotic Car, (http://www.udacity.com/overview/Course/cs373, spring 2012).  
+
+Those two free online classes provide the motivation and the basics for me to start doing something in this area. But the main "trigger" was David Singleton's neural network RC car project (http://blog.davidsingleton.org/nnrccar). A very impressive project, indeed. So, credits to those people.
