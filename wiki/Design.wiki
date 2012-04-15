@@ -4,7 +4,7 @@ The high-level system design.
 
 System overview:
 
-http://self-driving-rccar.googlecode.com/files/system_overview.png 
+http://self-driving-rccar.googlecode.com/files/system_overview.png
 
 The Android phone obtains GPS position, accelerometer, and orientation sensor data, and broadcast them using UDP over the local WiFi. 
 
