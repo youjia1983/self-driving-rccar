@@ -1,5 +1,17 @@
 = Introduction =
 
-This project is my attempt at building a small self-driving car, based on a cheap radio-controlled toy. This work is inspired mainly by Sebastian Thrun and Peter Norvig's free, online course on artificial intelligence (https://www.ai-class.com/, autumn 2011) and Thrun's Udacity CS373 Artificial Intelligence for Robotics, a.k.a. Programming a Robotic Car, (http://www.udacity.com/overview/Course/cs373, spring 2012).  
+This project is my attempt at building a small (mini? micro? nano? pico?) version of Google's or Stanford's self-driving car, based on a cheap radio-controlled toy. This work is inspired mainly by Sebastian Thrun and Peter Norvig's free, online course on artificial intelligence (https://www.ai-class.com/, autumn 2011) and Thrun's Udacity CS373 Artificial Intelligence for Robotics, a.k.a. Programming a Robotic Car, (http://www.udacity.com/overview/Course/cs373, spring 2012).
 
 Those two free online classes provide the motivation and the basics for me to start doing something in this area. But the main "trigger" was David Singleton's neural network RC car project (http://blog.davidsingleton.org/nnrccar). A very impressive project, indeed. So, credits to those people.
+
+Many parts of the codes are my adaptations of other people's work:
+
+# Android code to read sensor data: http://www.cse.nd.edu/~cpoellab/teaching/cse40815/android_sensors.pdf; what I did was integrating all GPS, accelerometer, and orientation sensor data measurements into one "Activity".
+
+# The Android code to broadcast sensor data over UDP socket was broadly based on http://code.google.com/p/boxeeremote/.
+
+# The Arduino sketch to interface with the RC car controller is almost 100% from David's code: https://github.com/dps/nnrccar.
+
+Many thanks also to bunch of "anonymous people" at stackoverflow... you guys rock!
+
+This work is released under BSD license, so all codes are provided "as is", feel free to use and distribute, but use it at your own risk.
