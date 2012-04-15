@@ -12,7 +12,7 @@ My first milestone is to program the car to drive a straight-line path in a cont
 
 As a starting point, I defer hacking directly to the car's electronics, and prefer to tap to the remote control instead. Also, for the moment I don't feel it's really necessary to integrate more sensors (e.g. laser or ultrasonic rangefinders) than what an Android smart phone already provides.
 
-Everything is still work in progress. Only the Android app that gather sensor data and broadcast the over the local network is currently completed. 
+Everything is still work in progress. Only the Android app that gathers sensor data and broadcast them over the local wireless network is currently completed. 
 
 Many parts of the codes are my adaptations of other people's work:
 
