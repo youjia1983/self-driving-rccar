@@ -10,7 +10,7 @@ Here's my example. Within one second, the fixed GPS coordinate change from (48.1
 
 My first milestone is to program the car to drive a straight-line path in a controllable manner, using a smoothened localization data obtained from applying Kalman filter to the GPS measurements, and by applying a PID control algorithm to steer the car to minimize the path error along the path between waypoints.
 
-As a starting point, I defer hacking directly to the car's electronics, and prefer to tap to the remote control instead. 
+As a starting point, I defer hacking directly to the car's electronics, and prefer to tap to the remote control instead. Also, for the moment I don't feel it's really necessary to integrate more sensors (e.g. laser or ultrasonic rangefinders) than what an Android smart phone already provides.
 
 Everything is still work in progress. Only the Android app that gather sensor data and broadcast the over the local network is currently completed. 
 
