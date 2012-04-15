@@ -10,11 +10,9 @@ Here's my example. Within one second, the fixed GPS coordinate change from (48.1
 
 Many parts of the codes are my adaptations of other people's work:
 
-# Android code to read sensor data is from [http://www.cse.nd.edu/~cpoellab/teaching/cse40815/android_sensors.pdf here]. What I did was integrating all GPS, accelerometer, and orientation sensor data measurements into one "Activity".
-
-# The Android code to broadcast sensor data over UDP socket was broadly based on the codes [http://code.google.com/p/boxeeremote/ here].
-
-# The Arduino sketch to interface with the RC car controller is almost 100% from [https://github.com/dps/nnrccar David's code].
+ * Android code to read sensor data is from [http://www.cse.nd.edu/~cpoellab/teaching/cse40815/android_sensors.pdf here]. What I did was integrating all GPS, accelerometer, and orientation sensor data measurements into one "Activity".
+ * The Android code to broadcast sensor data over UDP socket was broadly based on the codes [http://code.google.com/p/boxeeremote/ here].
+ * The Arduino sketch to interface with the RC car controller is almost 100% from [https://github.com/dps/nnrccar David's code].
 
 Many thanks also to bunch of "anonymous people" at stackoverflow... you guys rock!
 
