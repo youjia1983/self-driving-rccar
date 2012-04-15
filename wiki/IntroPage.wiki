@@ -14,4 +14,4 @@ Many parts of the codes are my adaptations of other people's work:
 
 Many thanks also to bunch of "anonymous people" at stackoverflow... you guys rock!
 
-This work is released under BSD license, so all codes are provided "as is", feel free to use and distribute, but use it at your own risk.
+This work is released under BSD license, so all codes are provided "as is", feel free to use and distribute, but use them at your own risk.
