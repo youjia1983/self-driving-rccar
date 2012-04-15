@@ -1,0 +1,18 @@
+The high-level system design.
+
+= Introduction =
+
+System overview:
+
+http://self-driving-rccar.googlecode.com/files/system_overview.png 
+
+http://self-driving-rccar.googlecode.com/files/plan.png
+
+Components to build:
+
+ * Sensor reading app
+ * Interface to the radio controller via Arduino
+ * Tests to get the car's physics model
+ * Kalman filter algorithm implementation
+ * PID control algorithm implementation
+ * Waypoint programming interface
