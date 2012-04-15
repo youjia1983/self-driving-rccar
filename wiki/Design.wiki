@@ -20,7 +20,7 @@ http://self-driving-rccar.googlecode.com/files/functional_architecture.png
 
  * Sensor reading app
  * Interface to the radio controller via Arduino
- * Tests to get the car's physics model
+ * Car physics model (tests)
  * Kalman filter algorithm implementation
  * PID control algorithm implementation
  * Waypoint programming interface
