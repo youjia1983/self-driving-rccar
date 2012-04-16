@@ -96,8 +96,8 @@ public class AndroidActivity extends Activity implements LocationListener, Senso
         gpsLat.setText("0.00");
         gpsLon.setText("0.00");
         
-        // Initialize GSON structure
-        try {
+        // Initialize JSON structure
+    try {
 			object.put("Lat", "0.00");
 			object.put("Lon", "0.00");
 			object.put("aX", "0.00");
@@ -192,9 +192,9 @@ public class AndroidActivity extends Activity implements LocationListener, Senso
         			object.put("oY", oYVal);
         			object.put("oZ", oZVal);
         			
-        		} catch (JSONException e) {
+        	 } catch (JSONException e) {
         			e.printStackTrace();
-        		}
+        	 }
     		}
     	}
     }
@@ -315,8 +315,8 @@ public class AndroidActivity extends Activity implements LocationListener, Senso
     	sd.stopThread();
     	
     	// Reset GPS figures
-    	gpsLatVal = Float.toString((float) 0.00);
-    	gpsLonVal = Float.toString((float) 0.00);
+    	gpsLatVal = "0.00";
+    	gpsLonVal = "0.00";
     	try {
 			object.put("Lat", gpsLatVal);
 			object.put("Lon", gpsLonVal);
