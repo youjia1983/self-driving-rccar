@@ -4,6 +4,18 @@ This page describe the kinematics model of the car.
 
 Also called in some places as the Ackerman steering model. 
 
+
+== System parameters ==
+
+<a href="http://www.codecogs.com/eqnedit.php?latex=(x, y, \theta)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?(x, y, \theta)%.png" title="(x, y, \theta)" /></a> is the car's coordinate and heading in the global coordinate system.
+
+<a href="http://www.codecogs.com/eqnedit.php?latex=(d, \alpha)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?(d, \alpha)%.png" title="(d, \alpha)" /></a> are the car's forward displacement and steer angle, respectively.
+
+<a href="http://www.codecogs.com/eqnedit.php?latex=L" target="_blank"><img src="http://latex.codecogs.com/gif.latex?L%.png" title="L" /></a> is the car's length.
+
+
+== Update equations ==
+
 First compute the turn-angle and radius: 
 
 <a href="http://www.codecogs.com/eqnedit.php?latex=\beta = \frac{d}{L} \tan \alpha" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\beta = \frac{d}{L} \tan \alpha%.png" title="turn angle" /></a>
