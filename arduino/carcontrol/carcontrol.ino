@@ -6,8 +6,8 @@ const int ledPin = 13;
 
 unsigned long previousTimeMs = 0;
 int fwdPulseMs = 100;
-int fwdPulseLowMs = 500;
-int fwdPulseHighMs = 250;
+int fwdPulseLowMs = 1000;
+int fwdPulseHighMs = 100;
 
 int left = LOW;
 int right = LOW;
