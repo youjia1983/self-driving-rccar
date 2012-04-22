@@ -212,6 +212,7 @@ public class AndroidActivity extends Activity implements LocationListener, Senso
     	private static final int PORT = 12346;
     	private static final int TIMEOUT_MS = 500;
     	private static final int BUF_SIZE = 1024;
+    	private static final int SEND_INTERVAL = 200; // ms
     	private WifiManager mWifi;
     	
     	DatagramSocket socket;
@@ -246,7 +247,7 @@ public class AndroidActivity extends Activity implements LocationListener, Senso
     				socket.setSoTimeout(TIMEOUT_MS);
         			sendData(socket);
         			socket.close();
-        			Thread.sleep(250);  // TO FIX: stopping the thread throws can't sleep exception (?)
+        			Thread.sleep(SEND_INTERVAL);  // TO FIX: stopping the thread throws can't sleep exception (?)
         		} catch (IOException ioe) {
         			Log.e(TAG, "Couldn't send data", ioe);
         		} catch (InterruptedException ie) {
